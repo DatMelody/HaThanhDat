@@ -1,0 +1,19 @@
+package baiso2;
+
+public class baiso2 {
+
+	public static void main(String[] args) {
+		int k=0,n,dem,j=0;
+        while(j<20){
+            k++;
+            dem=0;
+            for(n=2;n<=(k/2);n++)
+                if(k%n==0) dem++;
+            if(dem==0){
+                System.out.print(k + " ");
+                j++;
+            }
+        }
+    }
+
+}

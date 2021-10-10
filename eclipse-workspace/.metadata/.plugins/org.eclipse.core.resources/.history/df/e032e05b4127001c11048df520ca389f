@@ -1,0 +1,10 @@
+package baitapso3;
+
+public class KiemTraSoNguyenTo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
