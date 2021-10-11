@@ -1,3 +1,0 @@
-module baiso11 {
-	exports baiso11;
-}
