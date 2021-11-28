@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="py-5 text-center">
+        <h4>BÀI TẬP GIAO DIỆN TUẦN 1 2 3</h4>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <h5 class="font-weight-bold"><i class="fa fa-book" aria-hidden="true"></i> Thông tin bài tập tuần</h5>
+            <ul>
+                <li>Họ Và Tên: Hà Thành Đạt</li>
+                <li>MSSV: 20181057</li>
+                <li>Mã lớp/HP: 709155/IT3150 </li>
+                <li>Bài tập tuần: 1, 2, 3</li>
+                <li>Danh mục bài tập</li>
+                <li>Ngày cập nhật: 23/11/2021</li>
+            </ul>
+        </div>
+        <div class="col-md-6 ">
+            <h4 class="mb-3 text-center font-weight-bold">Bài tập giao diện tuần (Project-1)</h4>
+            <h5 class="mb-3 mt-4">Bài 16: Cho trước 2 xâu S1, S2. Hãy xét xem xâu S1 có phải là xâu con của S2 nếu xóa bỏ vài kí tự của xâu S2 ta được xâu S1. 
+            </h5>
+            <form class="needs-validation">
+                <div class="mb-3">
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="30">
+                            package tuan04;
+                            import java.util.Scanner;
+                            public class bai16_tuan04 {
+                                public static void main(String[] args) {
+                                    System.out.println("Ho va ten: Ha Thanh Dat");
+                                    System.out.println("MSSV : 20181057");
+                                    Scanner scanner = new Scanner(System.in);
+                                    String xau1= "Hà";
+                                    String xau2= "HàThànhĐạt";
+                                    boolean KT = true;
+                                    for(int i=0;i<xau1.length();i++){
+                                        if(!xau2.contains(xau1.split("")[i])){
+                                            KT = false;
+                                        }
+                                    }
+                                    if(KT){
+                                        System.out.println("Xâu 1 là con của xâu 2!");
+                                    }
+                                    else{
+                                        System.out.println("Xâu 1 không là con của xâu 1");
+                                    }
+                                }
+                            }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+                       </textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-3">
+            <h5 class="font-weight-bold"><i class="fa fa-tags" aria-hidden="true"></i> Mục lục tuần</h5>
+                <a href="baiso1.html">
+                <button type="button" class="btn mt-2 btn-secondary btn-sm">Tuần 1</button>
+                </a>
+                <a href="baiso17.html">
+                <button type="button" class="btn mt-2 btn-secondary btn-sm">Tuần 2</button>
+                </a>
+                <a href="baiso30.html">
+                <button type="button" class="btn mt-2 btn-primary btn-sm">Tuần 3</button>
+                </a>
+            <hr>
+            <a href="baiso30.html">
+            <button class="btn btn-success btn-lg btn-block mt-2">Bài số 1</button>
+            </a>
+            <a href="baiso31.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 2</button>
+            </a>
+            <a href="baiso32.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 3</button>
+            </a>
+            <a href="baiso33.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 4</button>
+            </a>
+            <a href="baiso34.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 5</button>
+            </a>
+            <a href="baiso35.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 6</button>
+            </a>
+            <a href="baiso36.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 7</button>
+            </a>
+            <a href="baiso37.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 8</button>
+            </a>
+            <a href="baiso38.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 9</button>
+            </a>
+            <a href="baiso39.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 10</button>
+            </a>
+            <a href="baiso40.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 11</button>
+            </a>
+            <a href="baiso41.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 12</button>
+            </a>
+            <a href="baiso42.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 13</button>
+            </a>
+            <a href="baiso43.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 14</button>
+            </a>
+            <a href="baiso44.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 15</button>
+            </a>
+            <a href="baiso45.html">
+            <button class="btn btn-outline-success btn-lg btn-block mt-2">Bài số 16</button>
+            </a>
+        </div>
+    </div>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+    </footer>  
+</div>
+</body>
+</html>
